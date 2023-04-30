@@ -1,0 +1,196 @@
+body {
+    padding: 2vw;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #1A1A1A;
+    padding: 0.5vw 10vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    color: gray;
+    display: block;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+
+.headerComponentsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerComponents {
+    color: #E3DBDB;
+    font-family: 'Bruno Ace SC', cursive;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.headerComponents:hover {
+    color: #9F9F92;
+}
+
+
+.mountainsContainer {
+    height: 50vw;
+    background-image: url('./images/vedi-mountains.jpg');
+    margin-top: 3vw;
+    border-radius: 0.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mountainsContainer h1 {
+    text-align: center;
+    color: #483D03;
+    padding-top: 2vw;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 2vw;
+}
+
+
+.aboutH1Div {
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    background-color: rgb(79, 79, 79);
+    color: #E3DBDB;
+    padding: 0.3vw 0;
+    margin-top: 3vw;
+    text-align: center;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 1.3vw;
+}
+
+
+.aboutContainer {
+    background-color: gainsboro;
+    padding: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+
+.aboutComponent {
+    width: 45%;
+    padding: 1vw 0;
+    margin-top: 3vw;
+    border-radius: 0.5vw;
+    margin-bottom: 3vw;
+    background-color: #1A1A1A;
+    margin-left: 4vw;
+
+}
+
+.aboutComponentPosRight {
+    display: flex;
+    justify-content: right;
+    padding-right: 4vw;
+}
+
+.aboutComponent h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #E3DBDB;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 2.4vw;
+}
+
+.aboutComponent p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    color: #9F9F92;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+#placesContainer {
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    background-color: #2d2d2d;
+    color: #9F9F92;
+    padding: 0.3vw 0;
+    margin-top: 3vw;
+    text-align: center;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 1.3vw;
+}
+
+
+#placesComponentsContainer{
+    background-color: rgb(220, 220, 220);
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3vw;
+}
+
+.placeComponent{
+    /* padding: 1vw; */
+    /* background-color: #E3DBDB; */
+    width: 30%;
+    border-radius: 0.5vw;
+    height: 27vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3vw;
+}
+
+.placeComp1{
+    background-image: url('./images/Սուրբ_Աստվածածին\,_Վեդի.JPG');
+}
+
+.placeComp2{
+    background-image: url('./images/Vedi_kaghaki_mutqy_\(2\).JPG');
+}
+
+
+.placeComp3{
+    background-image: url('./images/250px-«Վեդի_գետի_ավազանի»_բրածո_ֆաունա_1_\(2\).jpg');
+}
+
+.placeComp4{
+    background-image: url('./images/300px-Memorial_for_Andranik_Zohrabyan.jpg');
+}
+
+.placeComp5{
+    background-image: url('./images/Armenian_Genocide_Memorial_COmplex\,_Vedi.jpg');
+}
+
+.placeComp6{
+    background-image: url('./images/Vedi_Library\,_kids3.jpg');
+}
+
+.placeComponent div{
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 0.5vw;
+    opacity: 0;
+    color: #E3DBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    font-size: 10vw;
+    transition: 0.5s;
+}
+
+
+.placeComponent div:hover{
+    opacity: 0.8;
+}
