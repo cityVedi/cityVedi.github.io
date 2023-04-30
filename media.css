@@ -1,13 +1,13 @@
 @media only screen and (max-width: 800px) {
     header{
-        height: 14vw;
+        height: 25vw;
     }
     header h1{
         display: flex;
         align-items: center;
-        font-size: 5vw;
+        font-size: 10vw;
     }
     .headerComponents{
-        font-size: 1.6vw;
+        font-size: 2vw;
     }
   }
