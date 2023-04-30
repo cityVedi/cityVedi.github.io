@@ -1,18 +1,16 @@
-$(function () {
-    var aboutContainerPosition = $('#aboutContainer').position();
-    var placesContainerPosition = $('#placesComponentsContainer').position();
-    $("#toAbout").on("click", function () {
-        window.scrollTo({
-            top: aboutContainerPosition.top,
-            left: 0,
-            behavior: "smooth"
-        })
+var aboutContainerPosition = document.getElementById('aboutContainer').offsetTop;
+var placesContainerPosition = document.getElementById('placesComponentsContainer').offsetTop;
+    function toAbout(){
+    window.scrollTo({
+        top: aboutContainerPosition,
+        left: 0,
+        behavior: "smooth"
     })
-    $("#toPlaces").on("click", function () {
-        window.scrollTo({
-            top: placesContainerPosition.top,
-            left: 0,
-            behavior: "smooth"
-        })
+}
+function toPlaces() {
+    window.scrollTo({
+        top: placesContainerPosition,
+        left: 0,
+        behavior: "smooth"
     })
-})
+}
